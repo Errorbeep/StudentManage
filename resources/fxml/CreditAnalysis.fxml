@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="786.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="priv.matrix.student.controller.CreditAnController">
+   <children>
+      <StackPane fx:id="pieChartPane" layoutX="464.0" layoutY="2.0" prefHeight="353.0" prefWidth="409.0" />
+      <VBox layoutX="14.0" layoutY="14.0" prefHeight="341.0" prefWidth="427.0">
+         <children>
+            <HBox prefHeight="64.0" prefWidth="492.0">
+               <children>
+                  <Label prefHeight="65.0" prefWidth="497.0" text="学生成绩统计分析">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="48.0" prefWidth="492.0">
+               <children>
+                  <Label prefHeight="68.0" prefWidth="138.0" text="学生总数" />
+                  <Label fx:id="totalField" prefHeight="83.0" prefWidth="354.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="64.0" prefWidth="492.0">
+               <children>
+                  <Label prefHeight="68.0" prefWidth="138.0" text="不及格人数" />
+                  <Label fx:id="underField" prefHeight="83.0" prefWidth="354.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="64.0" prefWidth="492.0">
+               <children>
+                  <Label prefHeight="68.0" prefWidth="138.0" text="及格人数" />
+                  <Label fx:id="satisField" prefHeight="83.0" prefWidth="354.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="64.0" prefWidth="492.0">
+               <children>
+                  <Label prefHeight="68.0" prefWidth="138.0" text="平均成绩" />
+                  <Label fx:id="avgField" prefHeight="83.0" prefWidth="354.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="64.0" prefWidth="492.0">
+               <children>
+                  <Label prefHeight="68.0" prefWidth="138.0" text="成绩中等人数" />
+                  <Label fx:id="midField" prefHeight="83.0" prefWidth="354.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="64.0" prefWidth="492.0">
+               <children>
+                  <Label prefHeight="68.0" prefWidth="138.0" text="优秀人数" />
+                  <Label fx:id="excelField" prefHeight="83.0" prefWidth="354.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <StackPane fx:id="barChartPane" layoutX="14.0" layoutY="341.0" prefHeight="425.0" prefWidth="438.0" />
+   </children>
+</AnchorPane>
