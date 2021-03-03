@@ -29,7 +29,8 @@ a student info management system
 <img width="391" alt="image" src="https://user-images.githubusercontent.com/60865350/109772264-be70ac00-7c38-11eb-8322-d8ac9f98caab.png">
 
 > 删除记录
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/60865350/109777058-40af9f00-7c3e-11eb-82ae-d9e8ac7d3247.png">
+
 > 成绩统计分析
-> 个人中心
-> 
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/60865350/109777101-4d33f780-7c3e-11eb-81e4-e3334b56cb40.png">
 
